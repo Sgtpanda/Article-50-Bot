@@ -1,0 +1,23 @@
+{
+  "name": "article50bot",
+  "version": "1.0.0",
+  "description": "Posts twitter updates about UK's article 50 deadline",
+  "main": "tweet.js",
+  "dependencies": {
+    "twitter": "^1.7.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Sgtpanda",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Sgtpanda/Article-50-Bot.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Sgtpanda/Article-50-Bot/issues"
+  },
+  "homepage": "https://github.com/Sgtpanda/Article-50-Bot#readme"
+}
