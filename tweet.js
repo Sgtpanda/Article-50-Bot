@@ -1,11 +1,12 @@
 var Twitter = require('twitter');
 var DateDiff = require('date-diff');
+var auth = require('./auth.js');
 
 var client = new Twitter({
-  consumer_key: process.env.TWITTER_CONSUMER_KEY,
-  consumer_secret: process.env.TWITTER_CONSUMER_SECRET,
-  access_token_key: process.env.TWITTER_ACCESS_TOKEN_KEY,
-  access_token_secret: process.env.TWITTER_ACCESS_TOKEN_SECRET
+  consumer_key: auth.TWITTER_CONSUMER_KEY,
+  consumer_secret: auth.TWITTER_CONSUMER_SECRET,
+  access_token_key: auth.TWITTER_ACCESS_TOKEN_KEY,
+  access_token_secret: auth.TWITTER_ACCESS_TOKEN_SECRET
 });
 
 var startDate = new Date(2017,2,29);
